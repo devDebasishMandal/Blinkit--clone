@@ -1,0 +1,207 @@
+
+.location-box > h5 {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+  }
+  
+  .location-box > p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  
+  
+  .search-div {
+    padding: 0px 12px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 12px;
+    background: rgb(248, 248, 248);
+    color: rgb(130, 130, 130);
+  }
+  
+  .search-div > input {
+    border: none;
+    background-color: transparent;
+    width: 40vw;
+    height: 45px;
+  }
+  
+  ::placeholder {
+    font-size: 14px;
+    line-height: 10px;
+    color: rgb(153, 153, 153);
+  }
+  
+  .mycart-btn {
+    background-color: #0d831e !important;
+    font-size: 14px !important;
+  }
+  
+  .db1:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .mycatagories {
+    width: 86%;
+  }
+  
+  .my-container,
+  .mycatagories {
+    width: 85%;
+    overflow-x: auto;
+    margin: auto;
+  }
+  .mylist {
+    white-space: nowrap;
+  }
+  
+  .mylist > img {
+    padding-inline: 7px;
+    margin-bottom: 3px;
+  }
+  ::-webkit-scrollbar {
+    height: 8px;
+    /* display:none; */
+    border: none;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgb(156, 155, 155);
+    border-radius: 7px;
+    border: none;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #e6e6e6;
+    border-radius: 7px;
+    box-shadow: inset 0 0 3px rgb(190, 190, 190);
+    border: none;
+  }
+  
+  .mycard {
+    width: 179px;
+    margin-inline: 8px;
+    box-sizing: border-box !important;
+  }
+  .card-time {
+    width: fit-content;
+    height: 10px;
+    border-radius: 4px;
+    background-color: rgb(248, 248, 248);
+    padding: 0px 4px;
+    font-weight: 700px;
+    font-size: 9px;
+    color: rgb(54, 54, 54);
+  }
+  .card-title {
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+    white-space: normal;
+  }
+  
+  .offer {
+    align-items: center;
+    display: flex;
+    right: 0.75rem;
+    top: 0px;
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .off {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 9px;
+    white-space: normal;
+    text-align: center;
+    z-index: 20;
+    position: absolute;
+    display: block;
+  }
+  
+  .card-weight {
+    color: #666;
+    font-size: 12px;
+    font-family: "Okra", Helvetica;
+    height: 13px;
+  }
+  
+  .card-price {
+    color: rgb(31, 31, 31);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 10px;
+    height: 20px;
+  }
+  
+  .mrp {
+    color: #666;
+    font-size: 12px;
+  }
+  
+  .catagories {
+    width: 85%;
+    margin: auto;
+  }
+  .list-row {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  
+  footer >p{
+    display: flex;
+    justify-content: center;
+    margin: 18px;
+  }
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    nav,
+    .row2,
+    .row1 {
+      flex-direction: column !important ;
+    }
+  
+    .vertical-line {
+      display: none;
+    }
+  
+    .hero-section {
+      display: none !important ;
+    }
+  
+    .row2 > p,
+    .search-div {
+      width: 90%;
+    }
+    nav > button {
+      width: 90%;
+    }
+  
+    .row1 > div {
+      margin-top: 18px;
+    }
+  
+    .row1 > div > h3,
+    .row1 > div > a {
+      text-align: center;
+    }
+    .useful-links > table {
+      text-align: center;
+    }
+    .social-btn {
+      margin-top: 12px;
+    }
+  
+    .download-btn > span {
+      display: none;
+    }
+    .my-container {
+      margin-top: 18px !important;
+    }
+  }
+  
